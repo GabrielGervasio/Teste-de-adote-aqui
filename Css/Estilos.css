@@ -19,7 +19,6 @@
     display: flex;
     text-align: center;
     font-size: 20px;
-
     padding: 20px ;
     padding-right: 160px;
 
@@ -27,11 +26,9 @@
 .home{
     display: flex;
     align-items: center;
-    
     justify-content:center;
-    font-size: 20px;
-    
-    padding: 40px ;
+    font-size: 40px;
+    padding: 20px ;
     padding-right: 160px;
     background-image: url(https://i.pinimg.com/originals/b4/b2/bf/b4b2bfadb7857fd4921af265022390bf.jpg);
  
@@ -39,6 +36,7 @@
 }
 .fale{
     display: flex;
+    flex-direction: row;
     align-items: center;
     justify-content:center;
     font-size: 20px;
@@ -68,7 +66,7 @@
     justify-content:center;
     font-size: 20px;
     padding: 40px;
-    padding-right: 160px;
+    padding-right: 170px;
     background-image: url(https://i.pinimg.com/736x/c4/e5/8c/c4e58c902097b95ddc1aef4eb023efb0.jpg);
   color: black;
     background-size: cover;
