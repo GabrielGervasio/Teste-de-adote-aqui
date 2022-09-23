@@ -1,0 +1,27 @@
+@import url('https://fonts.googleapis.com/css2?family=Lobster+Two&display=swap');
+*{
+    font-family: Lobster Two;
+}
+.tudo{
+    border: 5px solid black;
+    border-radius: 50px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    font-size: 45px;
+    background-color: rgb(242, 198, 141);
+    text-shadow: 0.1em 0.1em rgb(199, 199, 197);
+}
+.imagem{
+    border: 5px solid black;
+    border-radius: 50px;
+    background-image: url("https://i.pinimg.com/474x/50/f0/f7/50f0f7cfaec92375e13bf7a6db35a5d9.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100px;
+    width: 100px;
+}
+body{ 
+    background-color: rgb(214, 209, 202);
+    }
